@@ -71,7 +71,7 @@ i.fas.fa-th {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 130px);
     overflow-y: auto;
     row-gap: 10px;
     column-gap: 10px;
@@ -100,7 +100,6 @@ footer{
     height: 80px;
     justify-content: space-between;
     min-width: 1200px;
-    margin-top: 20px;
 }
 
 .footer-left{
@@ -145,3 +144,4 @@ i.fas.fa-angle-up {
     padding: 0px 30px;
 }
 /* FINE FOOTER */
+
