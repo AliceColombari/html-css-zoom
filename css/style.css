@@ -13,6 +13,15 @@ body{
 .flex{
     display: flex;
 }
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
 /* FINE COMMON */
 
 /* HEADER */
@@ -57,6 +66,7 @@ i.fas.fa-th {
 }
 /* FINE HEADER */
 
+/* MAIN GALLERY PEOPLE */
 .gallery-people{
     flex-wrap: wrap;
     justify-content: center;
@@ -82,3 +92,56 @@ i.fas.fa-th {
     padding: 5px;
     font-size: 12px;
 }
+/* FINE MAIN GALLERY PEOPLE */
+
+/* FOOTER */
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 80px;
+    justify-content: space-between;
+    min-width: 1200px;
+    margin-top: 20px;
+}
+
+.footer-left{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex.link {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.link p {
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+i.fas.fa-angle-up {
+    font-size: 12px;
+}
+
+
+.footer-main{
+    justify-content: space-between;
+    width: 50%;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.footer-right button{
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: #ff0000;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0px 30px;
+}
+/* FINE FOOTER */
